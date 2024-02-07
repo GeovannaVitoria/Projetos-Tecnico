@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projeto Semáforo </title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div  id="placar" class="container-placar">
+        <h1  id="titulo"> PLACAR </h1>
+        
+        <div class="placar-counts">
+            <div>
+                <h2> VERDE </h2>
+                <span id="countV"> 0 </span>
+            </div>
+
+            <div class="linha-vertical"></div>
+
+            <div>
+                <h2> AMARELO </h2>
+                <span id="countA"> 0 </span>
+            </div>
+
+            <div class="linha-vertical"></div>
+
+            <div>
+                <h2> VERMELHO </h2>
+                <span id="countVERM"> 0 </span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-container">
+        <div class="botoes-container">
+            <div class="botoes" id="btnVerde"> 
+                <p> Verde </p> 
+            </div>
+
+            <div class="botoes" id="btn-amarelo">
+                <p> Amarelo </p>
+            </div>
+
+            <div class="botoes" id="btn-vermelho"> 
+                <p> Vermelho </p> 
+            </div>
+        </div>
+
+        <div class="semaforo">
+            <div class="bolinhas bolinha-verde" id="bolinhaVerde"> </div>
+
+            <div class="bolinhas bolinha-amarela" id="bolinha-amarela"> </div>
+
+            <div class="bolinhas bolinha-vermelha" id="bolinha-vermelha"> </div>
+        </div>
+
+        <div class="modes">
+            <span id="darkMode"> DarkMode </span>
+            <div class="linha-vertical"></div>
+            <span id="lightMode"> LightMode </span>
+        </div>
+
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> viaGEM </title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Conteúdo principal que envolve o HEADER, BANNER, BOTÕES ESTAÇÃO e SOBRE A PÁGINA -->
+
+    <main class="topo" id="banner-geral">
+        <header>
+            <div class="logo" >
+                <img src="img/logo-tentativa250-removebg.png" alt="">
+            </div>
+            
+            <nav class="nav-bar">
+                <ul class="nav-lista">
+                    <li><a id="lista-color" href="#sobre"> Sobre  </a></li>
+                    <li><a id="lista2-color"  href="#pacotes"> Pacotes </a></li>
+                    <li><a id="lista3-color" href="#cadastro"> Cadastro </a></li>
+                    <li><a  id="lista4-color" href="#contato"> Contato </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="sobre-topo">
+            <h1 class="sobre-topo-titulo">
+                <p id="sobre-topo-color">  
+                    <span class="destaque-banner" id="span-geral">  Ofertas  </span> de temporada feitas <span class="destaque-banner" id="span-geral2"> exclusivas </span> 
+                    <h1 class="sobre-topo-titulo-h1" id="sobre-topo-titulo">para você </h1>
+                </p>
+            </h1>
+
+            <div class="sobre-topo-clique" id="box-shadow">
+                <p>Clique na estação e embarque nessa viagem </p>
+            </div>
+        </section>
+        
+        <section class="container-topo">
+
+            <div class="card-banner card-verao" id="verao">
+                <p> Verão </p>
+            </div>
+    
+            <div class="card-banner card-inverno" id="inverno">
+                <p> Inverno </p>
+            </div>
+    
+            <div class="card-banner card-primavera" id="primavera">
+                <p> Primavera </p>
+            </div>
+
+            <div class="card-banner card-outono" id="outono">
+                <p> Outono </p>
+            </div>
+
+        </section>
+
+        <section id="sobre" class="container-historia">
+            <div class="promocao-card historia" id="historia-card">
+                <div class="historia-p">
+                    <p> Como você organiza suas viagens? </p>
+                    <p> Que tal organizá-las de acordo com as estações do ano e aproveitar cada momento? </p>
+                    <p> Clique na estação desejada e planeje sua viagem! </p>
+                </div>
+            </div>
+        </section> 
+
+    </main>
+
+    <!-- Sessão <Carrossel> que envolve FOTOS e NOME DO LUGAR -->
+
+    <section class="carousel-background">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imaGEM/Verão/Chapada diamantina.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Chapada Diamantina - Brasil </h5>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="imaGEM/Inverno/Noruega.png" style="height: 150%; " class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Noruega </h5>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="imaGEM/Outono/California.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> California - Estados Unidos </h5>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sessão <Pacotes> que envolve os CARDS DE PACOTES VIAGENS -->
+    
+    <section id="pacotes" class="section-pacotes">
+        <div class="pacotes-card">
+            <div class="imagem-card"  id="card-1">
+                <h1 id="card1-titulo"> Brasil </h1>
+            </div>
+
+            <div class="texto-card">
+                <div class="titulo-card">
+                    <span> R$ 650,00 </span>
+                    <h4 id="card1-lugar"> Verão </h4>
+                </div>
+
+                <p>
+                    Passe o protetor solar, tome um banho de Sol e mergulhe nas águas refrescantes dos paraísos tropicais que listamos para você
+                </p>
+            </div>
+        </div>
+
+        <div class="pacotes-card">
+            <div class="imagem-card imagem-card2" id="card-2">
+                <h1 id="card2-titulo"> Rússia </h1>
+            </div>
+
+            <div class="texto-card">
+                <div class="titulo-card">
+                    <span> R$ 230,00 </span>
+                    <h4 id="card2-lugar"> Inverno </h4>
+                </div>
+
+                <p>
+                    Se patinar no gelo, fazer anjo e guerra de neves, é seu ideal de férias, estes lugares estão na nossa lista de inverno
+                </p>
+            </div>
+        </div>
+
+        <div class="pacotes-card">
+            <div class="imagem-card imagem-card3" id="card-3">
+                <h1 id="card3-titulo"> California </h1>
+            </div>
+
+            <div class="texto-card">
+                <div class="titulo-card">
+                    <span> R$ 150,00 </span>
+                    <h4 id="card3-lugar"> Outono </h4>
+                </div>
+                <p>
+                    Que tal refletir e fazer mudanças na sua vida durante a estação do renovo? Os melhores lugares para passar o Outono estão aqui
+                </p>
+            </div>
+        </div>
+
+        <div class="pacotes-card">
+            <div class="imagem-card imagem-card4" id="card-4">
+                <h1 id="card4-titulo"> Japão </h1>
+            </div>
+
+            <div class="texto-card">
+                <div class="titulo-card">
+                    <span> R$ 380,00 </span>
+                    <h4 id="card4-lugar"> Primavera </h4>
+                </div>
+                <p>
+                    Com as flores desabroxando, o clima de romance paira nas cidades, por isso, estes são lugares recomendados para pombinhos apaixonados
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão <Cadastro> que envolve todo o FORMULÁRIO -->
+
+    <section id="cadastro" class="container-cadastro">
+        <div class="cadastro-formulario">
+            <h1> Cadastro  </h1>
+            <ul class="lista-campos-formulario">
+                <div class="campos-formulario">
+                    <li>
+                        <h2> Nome </h2>
+                        <input type="text" value="Seu Nome">
+                    </li>
+
+                    <li>
+                        <h2> Sobrenome </h2>
+                        <input type="text" value="Sobrenome">
+                    </li>
+                </div>
+
+                <div class="campos-formulario">
+                    <li>
+                        <h2> Email </h2>
+                        <input type="text" value="Email">
+                    </li>
+
+                    <li>
+                        <h2> Telefone </h2>
+                        <input type="text" value="Telefone">
+                    </li>
+                </div>
+
+                <div class="campos-formulario">
+                    <li>
+                        <h2> Senha </h2>
+                        <input type="password" value="Senha">
+                    </li>
+
+                    <li>
+                        <button class="cadastro-btn"> Cadastrar </button>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sessão <FOOTER> que envolve todo o CONTATO -->
+
+    <footer id="contato"> 
+        <div class="redes-icones">
+            <div class="container-redes">
+                <div class="footer-contato">
+                    <h3> Contate-nos </h3>
+
+                    <div class="contato">
+                        <p> Telefone: <a href="tel:21999999999"> (21) 99999-9999 </a> </p>
+                        <p> Email:  <a href="mailto:exemplo@gmail.com"> viagem@gmail.com </a> </p>
+                    </div>
+                </div>
+              
+                <div class="texto-footer">
+                    <p> Siga as nossas redes sociais </p>
+                </div>
+    
+                <div class="redes-sociais">
+                    <div class="icone-footer"> <a href="https://www.instagram.com/" target="_blank"> <img src="./img/instagram.png"> </a> </div> 
+                    <div class="icone-footer"> <a href="https://www.facebook.com/" target="_blank"> <img src="./img/facebook.png"> </a> </div> 
+                    <div class="icone-footer"> <a href="https://br.pinterest.com/" target="_blank"> <img src="./img/pinterest.png"> </a> </div> 
+                    <div class="icone-footer"> <a href="https://www.youtube.com/" target="_blank"> <img src="./img/youtube.png"> </a> </div> 
+                </div>
+            </div>
+    
+            <div class="logo-footer">
+                <img src="./img/logo-tentativa250-removebg.png" alt="Logo do Site">
+            </div>
+        </div>
+            
+        <div class="texto-footer2" id="footer-geral">
+            <p> Todos os direitos reservados &copy;GEM </p>
+
+            <a class="btn-up" href="#banner-geral"> 
+                <img src="img/seta-para-cima.png" alt="Seta para cima">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECE5C7;
+}
+
+.area-background{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.topo{
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    width: 99%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.topo h3{
+    font-family: montserrat ,sans-serif;
+    margin-top: 14px;
+    margin-left: 50px;
+    font-weight: bold;
+} 
+
+.topo h5{
+    margin-top: 3px;
+    font-family: montserrat ,sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.box-choice{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    justify-content: center;
+}
+
+.btn-choice{
+    margin-right: 10px;
+    border: none;
+    background: none;
+    font-family: montserrat ,sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-choice:hover{
+    border-bottom: 2px solid #CDC2AE;
+}
+  
+.area-light-blue {
+    position: relative;
+    z-index: 2;
+    background-color: #C2DEDC;
+    height: 651px;
+    width: 50%;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.line-transparent{
+    height: 42%;
+    position: relative;
+    font-family: montserrat ,sans-serif;
+}
+
+.title-line{
+    top: 48%;
+    position: relative;
+    margin-left: 70px;
+    letter-spacing: 10px;
+    color: #f0efef;
+    font-size: 40px;
+    text-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.title-line:after{
+    content:"";
+    position: absolute;
+    opacity:0;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+
+.title-line:hover{
+    transform:scale(1.10,1.20);
+    cursor: pointer;
+}
+
+.title-line:hover::after{
+    opacity: 1;
+}
+
+.line-black{
+    background-color: #000000;
+    height: 3px;
+    width: 600px;
+}
+
+
+.area-dark-blue {
+    position: absolute;
+    z-index: 3;
+    left: 650px;
+    top: 0;
+    right: 0;
+    background-color: #116A7B;
+    height: 651px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+}
+
+.area-cronometro{
+    position: absolute;
+    z-index: 5;
+    top: 210px;
+    left: 610px; 
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat ,sans-serif;
+}
+
+.cronometro{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.box-btn{
+    margin-top: 8px;
+}
+
+.btn-cronometro{
+    border: none;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #ece5c7;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-family: montserrat ,sans-serif;
+}
+
+.btn-cronometro:hover{
+    background-color: #CDC2AE;
+    cursor: pointer;
+    background: rgba(236, 229, 199, 0.3);
+    background: rgb(254, 242, 244, 0.3);
+}
+
+

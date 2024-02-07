@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    background-color: #FAEBD7;
+}
+
+.menu{
+  background-color: #DAA520;
+  height: 8vh;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-menu li{
+   list-style: none;
+   margin: 10px;
+
+}
+
+.lista-menu li a{
+    color: #AF2C02;
+    text-decoration: none;
+}
+
+.lista-menu li a:hover{
+    color: #D8C8AE;
+    transition: 0.59s;
+    opacity: 0.5;
+}
+
+.sobre-salvador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-salvador img{
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.paragrafo-salvador{
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+
+.paragrafo-salvador p{
+    margin-bottom: 25px;
+}
+
+.obras-salvador{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border: 3px solid #DAA520;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #AF2C02;
+}
+
+.photo-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-card img{
+    border-radius: 10px;
+}
+
+.p-card{
+    margin: 0 auto;
+    background-color: #D8C8AE;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10PX;
+}
+
+.titulo-card{
+    margin-bottom: 10px;
+}
+
+.linha-titulo-card{
+    border: 1px solid #FAEBD7;
+    width: 100%;
+}
+
+.p-card p{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.curiosidades-salvador{
+    background-color: #DAA520;
+}
+
+.curiosidades-salvador h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: rgb(172, 93, 93) 2px 2px;
+}
+
+.div-curiosidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.div-lista{
+    width: 50%;
+}
+
+.lista-curiosidades{
+    padding: 35px;
+}
+
+.lista-curiosidades li{
+    margin-bottom: 5px;
+    font-size: 20px;
+
+
+}
+
+.div-video{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #D8C8AE;
+    height: 28vh;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h1{
+    margin-bottom: 5px;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+
+footer img{
+    margin-top: 10px;
+}
+
+.copyright{
+    background-color: black;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Conteúdo Principal - TOPO */
+
+.topo{
+    background-image: url('../img/capa.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+}
+
+.logo h3 {
+    color: aliceblue;
+    padding: 2px;
+    padding-top: 21px;
+    font-size: 22px;
+}
+
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #b6b3b3;
+    width: 100%;
+}
+
+.nav-lista{
+    display: flex;
+}
+
+.nav-lista li{
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 25px;
+    padding-top: 21px;
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-lista li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0px;
+}
+
+.nav-lista li a:hover{
+    border-bottom: 2px solid #dddd3f;
+    text-shadow: 3px 3px 5px black;
+}
+
+.sobre-topo-titulo{
+    padding: 40px ;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sobre-topo-titulo-h1{
+    color: white;
+    padding: 40px;
+    margin-top: -80px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sobre-topo-clique{
+    color: rgb(131, 131, 131);
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+    padding: 1px;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 40px;
+    box-shadow: 1px 3px 1px 1px rgb(230, 208, 17);
+    margin-top: -30px;
+}
+
+.sobre-topo-clique p{
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.destaque-banner{
+    color: yellow;
+    font-weight: 100%;
+}
+
+.container-topo{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.card-banner{
+    color: #f5fcd9;
+    padding: 30px 0;
+    max-height: 90px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+    font-family: 'Lexend', sans-serif;
+}
+
+.card-verao{
+    background: linear-gradient(0deg, rgba(248,134,12,1) 0%, rgba(217,90,11,1) 100%);
+}
+
+.card-inverno{
+    background: linear-gradient(0deg, rgba(135,206,250,1) 0%, rgba(176,224,230,1) 100%);
+}
+
+.card-primavera{
+    background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(238,130,238,1) 100%);
+}
+
+.card-outono{
+    background: linear-gradient(0deg, rgba(20,74,44,1) 0%, rgba(54,136,91,1) 100%);
+}
+
+.sobre-background{
+    background-color: #f7f4f4;
+}
+
+.container-historia {
+    background-image: url('../img/card.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    position: absolute;
+    bottom: -350px;
+    height: 400px;
+    width: 100%;
+}
+
+.historia{
+    width: 50%;
+    height: 100%;   
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    padding: 10px;
+}
+
+.historia-p{
+    padding-top: 140px;
+    line-height: 20px;
+}
+
+.promocao-card{
+    background-color: #ffe600;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px 0px 80px 10px;
+}
+
+/* Sessão CARROSEL */
+
+.carousel-background{
+    background-color: #f7f4f4;
+    margin-top: 350px;
+    padding: 50px;
+}
+
+.carousel{
+    margin-top: 390px;
+    width: 1024px;
+    margin: 0 auto;
+    border: 3px solid;
+}
+
+.carousel-caption{
+    font-family: 'Lexend', sans-serif;  
+}
+
+.carousel-item{
+    height: 500px;
+    color: black;
+}
+
+/* Sessão PACOTES */
+
+.section-pacotes{
+    padding: 30px;
+    display: flex;
+}
+
+.pacotes-card{
+    width: 330px;
+    border: 2px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.imagem-card{
+    background-image: url('../imaGEM/Verão/Maragogi.jpg');
+    background-size: 350px;
+    height: 180px;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 20px 20px 0 0 ;
+    position: relative;
+}
+
+.imagem-card2{
+    background-image: url('../imaGEM/Inverno/Moscou\ -\ Russia.jpg');
+}
+
+.imagem-card3{
+    background-image: url('../imaGEM/Outono/Canadá.jpg') ;
+}
+
+.imagem-card4{
+    background-image: url('../imaGEM/Primavera/Japão\ -\ \ Castelo\ em\ Himeji.jpg');
+}
+
+.imagem-card h1{
+    position: absolute;
+    bottom: 0;
+    color: wheat;
+    text-shadow: 2px 2px 3px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.titulo-card{
+    background-color: #9ba573;
+    align-self: center;
+    padding: 5px;   
+    font-family: 'Varela Round', sans-serif;
+}
+
+.texto-card{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+
+.texto-card p{
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+/* Sessão Cadastro */
+
+.container-cadastro{
+    height: 500px;
+    background-image: url(../img/fundo-cad8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.cadastro-formulario{
+    width: 650px;
+    height: 420px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .25);
+    position: absolute;
+    top: 45px;
+    left: 28%;
+    border-radius: 15px;
+    padding-top: 30px;
+    box-shadow: 8px 8px 8px black;
+    font-family: 'Lexend', sans-serif;
+}       
+
+.cadastro-formulario h1{
+    font-size: 23px;
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 4px 3px 5px black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.lista-campos-formulario{
+    width: 600px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.lista-campos-formulario li{
+    margin-right: 90px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    list-style: none;
+    color: white;
+}
+
+.campos-formulario{
+    display: flex;  
+}
+
+.campos-formulario h2{
+    font-size: 18px;
+}
+
+.campos-formulario input{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(230, 220, 220);
+    height: 40px;
+    padding: 10px;
+    color: rgb(138, 134, 134);
+}
+
+.cadastro-btn{
+    border: none;
+    padding: 7px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    background-color: rgba(3, 3, 3, 0.25);
+    letter-spacing: 1px;
+}
+
+.cadastro-btn:hover{
+    background-color: rgb(31, 29, 29);
+    transition: 0.5s;
+}
+
+/* Sessão FOOTER */
+
+footer{
+    background-color: #f7f4f4 ;
+    width: 100%;
+}
+
+.redes-icones{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.contato{
+    display: flex;
+    margin-bottom: 30px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.footer-contato h3{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contato p{
+    margin: 0px 10px;
+    font-weight: 400;
+}
+
+.contato a{
+    text-decoration: none;
+    color: #585858;
+}
+
+.texto-footer{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.icone-footer{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.logo-footer img{
+    width: 100%;
+}
+
+.texto-footer2{
+    position: relative;
+    font-family: 'Lexend', sans-serif;
+}
+
+.texto-footer2 p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #FF7F50;
+    margin-bottom: 0;
+}
+
+.btn-up{
+    position: absolute;
+    right: 100px;
+    top: -20px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-up:hover{
+    background-color: yellow;
+}
+
+.btn-up img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Sessão RESPONSIVIDADE */
+
+@media (max-width: 768px){
+    .sobre-topo-clique{
+        width: 60%;
+        font-size: 20px;
+        margin-top: -6px;
+    }
+
+    .historia{
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    .historia-p{
+        padding-top: 35px;
+        line-height: 35px;
+    }
+
+    .container-historia{
+        background-size: cover;
+        border-radius: 70px;
+        bottom: -250px;
+        height: auto;
+    }
+
+    .promocao-card{
+        height: 300px;
+    }
+
+    .carousel-background{
+        margin-top: 250px;
+        padding: 20px;
+    }
+
+    .carousel{
+        width: 650px;
+    }
+
+    .carousel-item{
+        height: 100%;
+    }
+
+    .section-pacotes{
+        flex-wrap: wrap;
+    }
+
+    .pacotes-card{
+        width: 310px;
+        margin-bottom: 30px;
+    }
+
+    .cadastro-formulario{
+        left: 7%;
+    }
+}
+
+@media(max-width: 425px){
+    .topo{
+        height: 458px;
+    }
+
+    .header{
+        padding: 5px;
+    }
+
+    .logo img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav-lista li{
+        padding-top: 5px;
+        margin-top: 0;
+    }
+
+    .nav-lista li a{
+        font-size: 13px;
+    }
+
+    .sobre-topo{
+        visibility: hidden;
+    }
+
+    .card-banner{
+        margin: 8px;
+    }
+
+    .container-topo{
+        bottom: 265px;
+    }
+
+    .card-banner{
+        width: 80px;
+        height: 60px;
+        padding: 16px 10px;
+        font-size: 15px;
+    }
+
+    .container-historia{
+        background-image: url(../img/card-2.jpeg);
+        background-position: center;
+        height: 250px;
+        margin: 0 auto;
+        bottom: -40px;
+        border-radius: 20px;
+    }
+
+    .promocao-card{
+        width: 55%;
+        height: 100%;
+    }
+
+    .historia{
+        font-size: 13px;
+    }
+
+    .historia-p{
+        line-height: normal;
+        padding-top: 14px;
+        font-weight: 400;
+    }
+
+    .carousel-background{
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .carousel{
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .section-pacotes{
+        display: block;
+    }
+
+    .pacotes-card{
+        margin-bottom: 20px;
+    }
+
+    .container-cadastro{
+        max-width: 500px;
+        width: 100%;
+        height: 645px;
+        background-attachment: fixed;
+    }
+
+    .cadastro-formulario {
+        padding-top: 0px;
+        max-width: 370px;
+        height: 560px;
+    }
+
+    .campos-formulario{
+        display: block;
+    }
+
+    .lista-campos-formulario{
+        width: 100px;
+        padding: 0px;
+        margin-left: 25px;
+    }
+
+    .cadastro-btn{
+        margin: 0px;
+    }
+
+    .footer-contato{
+        padding: 10px;
+    }
+
+    .logo-footer{
+        width: 85px;
+        height: 85px;
+        padding: 5px;
+    }
+
+    .btn-up{
+        right: 40px;
+        top: -17px;
+    }
+
+    .btn-up img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 375px){
+    .historia-p{
+        padding-top: 5px;
+    }
+        
+    .historia{
+        font-size: 12px;
+    }
+    
+    .cadastro-formulario{
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .texto-footer{
+        font-size: 15px;
+    }
+
+    .texto-footer2 p{
+        font-size: 15px;
+    }
+
+    .icone-footer{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo-footer{
+        width: 80px;
+        height: 80px;
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 320px){
+    .card-banner{
+        margin: 2px;
+    }
+
+    .promocao-card{
+        width: 62%;
+    }
+
+    .historia{
+        font-weight: bold;
+    }
+    
+    .pacotes-card{
+        width: 225px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .cadastro-formulario{
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .contato{
+        display: block;
+    }
+
+    .contato p{
+        padding-bottom: 15px;
+    }
+
+    .logo-footer{
+        margin-top: 80px;
+    }
+
+    .btn-up{
+        right: 15px;
+        top: -16px;
+    }
+}

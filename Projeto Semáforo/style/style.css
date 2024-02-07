@@ -1,0 +1,118 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: tahoma;
+}
+
+
+.container-placar{
+    max-width: 500px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(216, 130, 18, 0.25);
+    box-shadow: 10px 10px 10px gray;
+    border: 2px solid  white;
+    border-radius: 15px;
+}
+
+.container-placar h1{
+    text-shadow: 2px 1px 5px whitesmoke;
+}
+
+.placar-counts{
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    margin: 5px auto;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.linha-vertical{
+    height: 40px;
+    background-color: #1a1a1a;
+    border: 1px solid;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 10px;
+    position: relative;}
+
+.botoes-container{
+    margin-right: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.botoes{
+    margin-bottom: 50px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: rgba(216, 130, 18, 0.25);
+    font-weight: 700;
+    font-size: 14px;
+    color: #363636;
+}
+
+.botoes:hover{
+    border: 2px solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.semaforo{
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #3a3a3a;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.bolinhas{
+    border-radius: 50%;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    box-shadow: 7px 7px 10px #1a1a1a;
+    margin: 15px auto;
+}
+
+.bolinha-verde{
+    background-color: #39c939;
+}
+
+.bolinha-amarela{
+    background-color: #d3d336;
+}
+
+.bolinha-vermelha{
+    background-color: #d43a3a;
+}
+
+.modes{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: rgba(216, 130, 18, 0.25);
+    border-radius: 10px;
+    padding: 2px 10px;
+    display: flex;
+    align-items: center
+}
+
+.modes div{
+    margin: 5px;
+}
